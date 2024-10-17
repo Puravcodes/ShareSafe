@@ -8,10 +8,10 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // Azure Blob Storage configuration
-const connectionString = "DefaultEndpointsProtocol=https;AccountName=mywebappstorage1;AccountKey=1eCSyMCKosTsI0HFLOgXfHDmUoknGOX3/4+rlzq1q2DXAvA8VRP5JXFjRUgCUlHoLlJooD0AC1kA+AStNyZAGA==;EndpointSuffix=core.windows.net";
+const connectionString = "your connectionString";
 const containerName = "uploads";
 const accountName = "mywebappstorage1";
-const accountKey = "1eCSyMCKosTsI0HFLOgXfHDmUoknGOX3/4+rlzq1q2DXAvA8VRP5JXFjRUgCUlHoLlJooD0AC1kA+AStNyZAGA==";
+const accountKey = "Your AccountKey";
 
 
 const blobServiceClient = BlobServiceClient.fromConnectionString(connectionString);
