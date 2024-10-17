@@ -34,7 +34,8 @@ Deploying a web app to Azure App Service is simple and efficient. You start by c
 ![Opera Snapshot_2024-10-17_131551_portal azure com](https://github.com/user-attachments/assets/9e802676-8990-4ddd-be23-0fd7aea8fec4)
 
 After that I used the URL that was in the overview section of Azure Web Apps to test if the application is working. 
-![Opera Snapshot_2024-10-17_131643_portal azure com (2)](https://github.com/user-attachments/assets/795938bc-f857-484c-9d99-38eb584d3dda)
+![377442415-795938bc-f857-484c-9d99-38eb584d3dda](https://github.com/user-attachments/assets/69e621b8-3515-48ae-a70b-2a88b5bc9225)
+
 
 ![image](https://github.com/user-attachments/assets/8c4722f7-962d-4c3b-99ff-a9bf91f30a3a)
 
