@@ -31,12 +31,12 @@ After deploying the Storage Account, I created a container to store the uploaded
 ### Step 2: Deploy the Web App 
 
 Deploying a web app to Azure App Service is simple and efficient. You start by creating your app in the Azure portal, where you choose the runtime and region that fit your needs. After that, you can easily push your code from GitHub or your local environment using Azure's built-in tools. 
-![alt text](<Opera Snapshot_2024-10-17_131551_portal.azure.com.png>)
+![Opera Snapshot_2024-10-17_131551_portal azure com](https://github.com/user-attachments/assets/9e802676-8990-4ddd-be23-0fd7aea8fec4)
 
 After that I used the URL that was in the overview section of Azure Web Apps to test if the application is working. 
-![alt text](<Opera Snapshot_2024-10-17_131643_portal.azure.com (2).png>)
+![Opera Snapshot_2024-10-17_131643_portal azure com (2)](https://github.com/user-attachments/assets/795938bc-f857-484c-9d99-38eb584d3dda)
 
-![alt text](<Screenshot 2024-10-17 162429.png>)
+![image](https://github.com/user-attachments/assets/8c4722f7-962d-4c3b-99ff-a9bf91f30a3a)
 
 ### Step 3: Logic Behind the File Upload
 
@@ -44,19 +44,22 @@ The file upload process starts by temporarily storing the uploaded file locally 
 
 ### Step 4: Unique Link Generation. 
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/358aa797-e0c6-4220-b158-0f34a5d660df)
+
 
 
 A Shared Access Signature (SAS) token provides secure, time-limited access to resources in Azure Blob Storage without exposing your storage account credentials. In this app, after a file is uploaded to Azure Blob Storage, a SAS token is generated for that specific file, granting read-only access for a duration of 10 minutes. The SAS token is appended to the file's URL, allowing anyone with the link to access the
 
-![alt text](image-1.png)
+![image](https://github.com/user-attachments/assets/17a2568d-0de0-4e6d-b73c-be39fcf25a13)
+
 
 
 ###  Demo of File Upload Functionality:
 
 Here's a short GIF showcasing the working of the web application. It illustrates how users can upload files, which are then securely stored in Azure Blob Storage, along with the generation of a temporary access link.
 
-![alt text](<bandicam2024-10-1713-38-12-289-ezgif.com-video-to-gif-converter (1).gif>)
+![bandicam2024-10-1713-38-12-289-ezgif com-video-to-gif-converter (1)](https://github.com/user-attachments/assets/e73d3ebd-32df-41eb-91b3-a515315cc72e)
+
 
 
 ## 📖 Summary
