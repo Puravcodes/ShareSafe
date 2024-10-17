@@ -1,11 +1,11 @@
-# 📂 ShareSafely 
+# 📂 ShareSafe 
 
 Create a web application where users can securely upload files to Azure Blob Storage. Once uploaded, the application generates a unique, time-limited link for the user to share. This ensures that the user with the link can access the uploaded file for a specified duration.
 
 
 ## 🌟 Design
 This project is intended to be used for a securly uploading files to Azure Blob Storage.
-![alt text](Diagram.png)
+![Diagram](https://github.com/user-attachments/assets/b3e06c2d-7cb9-4822-acc2-ceea95547e3c)
 
 ## ✨ Features 
 These are the resources I have used. 
